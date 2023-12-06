@@ -6,7 +6,23 @@
 //Ambas são case-insensitive.
 
 $foo = TRUE;
+$bar = FaLsE;
 
 //Tipicamente, o resultado de um operador que retorne um valor bool,
 //é passado para uma estrutura de controle.
 
+$action = "mostrar_versão";
+if($action == "mostrar_versao") {
+    echo "A versão é 1.23";
+}
+
+//isto não é necessário...
+$exibir_separadores = true;
+if($exibir_separadores == true) {
+    echo "<hr>\n";
+}
+
+//... porque você pode simplesmente escrever isso:
+if($exibir_separadores) {
+    echo "<hr>\n";
+}
