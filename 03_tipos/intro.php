@@ -17,3 +17,8 @@ var_dump($an_inteiro);
 if(is_string($an_inteiro)) {
     echo "String: $a_bool";
 }
+
+//nota: get_debug_type() se tornou disponível no PHP 8.0.0.
+//Antigamente, a função gettype() pode ser utilizada.
+// Entretanto, a função antiga não retorna nomes bem definidos.
+
